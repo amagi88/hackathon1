@@ -5,10 +5,10 @@ import Web3 from 'web3';
 import MyContract from './build/SightseeingToken.json';
 import MPage from './MyPage.js';
 import EPage from './EventPage.js';
-import EHis from './EventHis.js';
 import BPage from './BuyPage.js';
 import GPage from './GoodsPage.js';
 import LPage from './ListenPage';
+import './main.css';
 
 const web3 = new Web3(window.ethereum);
 const contractABI = MyContract.abi;
