@@ -51,7 +51,6 @@ function App() {
         <Routes>
           <Route path="/" element={<MPage />} />
             <Route path="/eventregister" element={<EPage />} />
-            <Route path="/eventhistory" element={<EHis/>} />
             <Route path="/goodsregister" element={<GPage/>} />
             <Route path="/buy" element={<BPage/>} /> 
             <Route path="/listen" element={<LPage/>} />
